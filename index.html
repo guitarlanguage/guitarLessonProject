@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
+    <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
     <script src="https://use.typekit.net/cgc8fzp.js"></script>
     <script>
         try {
@@ -17,12 +18,13 @@
     </script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://cdn.auth0.com/js/auth0/9.0.1/auth0.min.js"></script>
 </head>
 
 <body class="container-fluid">
 
-    <div class="jumbotron">
-        <p><button type="button" class="btn btn-danger">Take the Journey</button></p>
+    <div class="jumbotron jumbotron-fluid">
+
     </div>
 
     <nav class="navbar navbar-inverse">
@@ -34,7 +36,7 @@
                     <span class="icon-bar"></span>
                 </button>
             </div>
-            <div class="collapse navbar-collapse" id="myNavbar">
+            <div id="myNavbar" class="collapse navbar-collapse">
                 <ul class="nav navbar-nav">
                     <li class="active"><a href="testPage.html">Home</a></li>
                     <li><a href="#" target="_blank">MEMBER LOGIN</a></li>
@@ -129,20 +131,15 @@
                 </div>
             </div>
 
-        </div><!--end of row -->
+        </div>
+        <!--end of row -->
     </div>
 
 
     <br><br>
 
-    <footer class="container-fluid text-center">
-        <p>@tom lachance</p>
-        <form class="form-inline">hail to the zoo:
-            <input type="email" class="form-control" size="50" placeholder="Email Address">
-            <button type="button" class="btn btn-danger">Stay in the know</button>
-        </form>
-    </footer>
-
+    <div id="bit-div">hello</div>
+    <script src="app.js"></script>
 </body>
 
 </html>
