@@ -3,7 +3,7 @@ $('document').ready(function() {
   var webAuth = new auth0.WebAuth({
     domain: "guitarlanguage.auth0.com",
     clientID: "y8AA4z9Gre45oDzkbPIjJTM4RnE36HJG",
-    redirectUri: "http://tomlachance.com",
+    redirectUri: "https://cocky-sinoussi-e4da0e.netlify.com/",
     audience: 'https://' + "guitarlanguage.auth0.com" + '/userinfo',
     responseType: 'token id_token',
     scope: 'openid'
