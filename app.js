@@ -3,7 +3,7 @@ $('document').ready(function() {
   var webAuth = new auth0.WebAuth({
     domain: "guitarlanguage.auth0.com",
     clientID: "y8AA4z9Gre45oDzkbPIjJTM4RnE36HJG",
-    redirectUri: "http://localhost:3000",
+    redirectUri: "http://tomlachance.com",
     audience: 'https://' + "guitarlanguage.auth0.com" + '/userinfo',
     responseType: 'token id_token',
     scope: 'openid'
@@ -17,3 +17,5 @@ $('document').ready(function() {
   });
 
 });
+
+// http://localhost:3000,
