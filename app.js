@@ -17,5 +17,3 @@ $('document').ready(function() {
   });
 
 });
-
-// http://localhost:3000,
